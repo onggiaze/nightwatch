@@ -1,0 +1,29 @@
+15:55:01.443 INFO - Selenium build info: version: '3.5.3', revision: 'a88d25fe6b'
+15:55:01.444 INFO - Launching a standalone Selenium Server
+2017-09-28 15:55:01.516:INFO::main: Logging initialized @669ms to org.seleniumhq.jetty9.util.log.StdErrLog
+15:55:01.622 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:55:01.664 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+15:55:01.664 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+15:55:01.731 INFO - Using the passthrough mode handler
+2017-09-28 15:55:01.766:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+2017-09-28 15:55:01.813:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@5e5d171f{/,null,STARTING} has uncovered http methods for path: /
+2017-09-28 15:55:01.821:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@5e5d171f{/,null,AVAILABLE}
+2017-09-28 15:55:01.856:INFO:osjs.AbstractConnector:main: Started ServerConnector@5552768b{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-09-28 15:55:01.858:INFO:osjs.Server:main: Started @1012ms
+15:55:01.858 INFO - Selenium Server is up and running
+2017-09-28 15:55:02.432:INFO:osjshC.ROOT:qtp1906808037-12: org.openqa.selenium.remote.server.WebDriverServlet-67c27493: Initialising WebDriverServlet
+15:55:02.528 INFO - Binding default provider to: org.openqa.selenium.chrome.ChromeDriverService
+15:55:02.531 INFO - Found handler: org.openqa.selenium.remote.server.BeginSession@47b89f70
+15:55:02.538 INFO - /session: Executing POST on /session (handler: BeginSession)
+15:55:02.610 INFO - Capabilities are: Capabilities {acceptSslCerts=true, marionette=true, name=Rss Parser, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, }
+15:55:02.612 INFO - Capabilities {acceptSslCerts=true, marionette=true, name=Rss Parser, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+15:55:02.613 INFO - Capabilities {acceptSslCerts=true, marionette=true, name=Rss Parser, browserName=chrome, javascriptEnabled=true, platformName=ANY, platform=ANY, } matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061) on port 24739
+Only local connections are allowed.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by net.sf.cglib.core.ReflectUtils$1 (file:/Users/tdang/www/nightwatch/bin/selenium-server-standalone-3.5.3.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of net.sf.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
